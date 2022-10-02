@@ -73,8 +73,8 @@ def checkFingers(fingers, img, overlayList, lmList):
     Checks if the fingers are in a particular orientation that matches the ASL representations 1-10.
     If so, it displays the appropriate number image representated by the person.
     
-    fingers: List of 0s and 1s for 5 fingers starting from the thumb to the pinky where 1 means finger is up and 0
-             means finger is down
+    fingers: List of 0s and 1s for 5 fingers starting from the thumb to the pinky where 1 means finger 
+    is up and 0 means finger is down
     img: One frame obtained from front camera
     overlayList: List containing all the pictures of ASL gestures 1-10
     lmList: 2D list of all fingers and their coordinates
